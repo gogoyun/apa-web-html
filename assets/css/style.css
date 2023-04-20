@@ -17,13 +17,9 @@ a:hover {
 	text-decoration: none;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h1 {
 	font-weight: bold;
+	margin: 0;
 }
 
 /*--------------------------------------------------------------
@@ -278,9 +274,7 @@ section#home {
 	padding: 60px 0 0;
 }
 #home {
-	width: 100%;
 	position: relative;
-	z-index: 9;
 }
 
 #home:before {
@@ -378,4 +372,47 @@ section p {
 .s2_bottom {
 	margin-top: 100px;
 	padding-left: 60px;
+}
+
+/*--------------------------------------------------------------
+# Features
+--------------------------------------------------------------*/
+section#features {
+	padding-top: 250px;
+	padding-bottom: 160px;
+}
+#features {
+	position: relative;
+	color: #fff;
+}
+
+#features:before {
+	content: "";
+	background: linear-gradient(90deg, #0040b6, #5592be 60%);
+	position: absolute;
+	bottom: 0;
+	top: 250px;
+	left: 0;
+	right: 0;
+	max-height: 1190px;
+}
+
+#features .container {
+	min-height: 1190px;
+}
+
+.s3_bg {
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+.s3_left {
+	margin-left: -90px;
+	z-index: 9;
+	max-width: 946px;
+}
+
+.s3_right {
+	z-index: 9;
 }

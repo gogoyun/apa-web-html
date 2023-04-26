@@ -200,6 +200,10 @@
 				spaceBetween: 80
 			},
 			992: {
+				slidesPerView: 4,
+				spaceBetween: 100
+			},
+			1400: {
 				slidesPerView: 5,
 				spaceBetween: 120
 			}

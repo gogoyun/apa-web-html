@@ -46,7 +46,7 @@
 				<ul>
 					<li><a class="nav-link scrollto" href="#about">About</a></li>
 					<li><a class="nav-link scrollto" href="#features">Features</a></li>
-					<li><a class="nav-link scrollto " href="#howtouse">How to Use</a></li>
+					<li><a class="nav-link scrollto" href="#howtouse">How to Use</a></li>
 					<li><a class="nav-link scrollto" href="#download">Download</a></li>
 				</ul>
 				<i class="bi bi-list mobile-nav-toggle"></i>
@@ -56,29 +56,42 @@
 	<main id="main">
 		<!-- ======= Home Section ======= -->
 		<section id="home">
-			<div class="section_bg" data-aos="fade-up">
+			<div class="section_bg d-none d-sm-block" data-aos="fade-up">
 				<img src="assets/img/s1_bg.png" class="img-fluid">
 			</div>
-			<div class="s1_hello" data-aos="zoom-in-up" data-aos-delay="1300">
+			<div class="section_bg d-block d-sm-none" data-aos="fade-up">
+				<img src="assets/img/ps1_bg_item.png" class="img-fluid">
+			</div>
+			<div class="s1_hello" data-aos="fade-up" data-aos-delay="1300">
 				<img src="assets/img/s1_hello.png">
 			</div>
 			<div class="container">
-				<div class="d-flex justify-content-between">
+				<div class="d-flex justify-content-center justify-content-sm-between flex-wrap">
 					<div class="s1_left px-0">
-						<img src="assets/img/s1_logo.png" class="img-fluid" alt="A% AI Marketing" data-aos="zoom-in" data-aos-delay="150">
+						<img src="assets/img/s1_logo.png" class="img-fluid" alt="A% AI Marketing" data-aos="fade-up" data-aos-delay="150">
 						<h3 data-aos="fade-up" data-aos-delay="300">行銷決策自動化，解決你的行銷焦慮</h3>
-						<div class="d-flex align-items-end justify-content-between s1_btn">
-							<div class="px-1" data-aos="fade-right" data-aos-delay="700">
-								<a href="https://apps.apple.com/tw/app/a-虛擬助理/id1673234170"><img src="assets/img/s1_icon_ios.png" class="img-fluid" alt="A%虛擬助理iOS download"></a>
-							</div>
-							<div class="px-1" data-aos="fade-left" data-aos-delay="700">
-								<a href="https://play.google.com/store/apps/details?id=com.sympasoft.apa"><img src="assets/img/s1_icon_android.png" class="img-fluid" alt="A%虛擬助理Android download"></a>
+						<div class="d-none d-sm-block">
+							<div class="d-flex align-items-end justify-content-between s1_btn">
+								<div class="px-1" data-aos="fade-up" data-aos-delay="700">
+									<a href="https://apps.apple.com/tw/app/a-虛擬助理/id1673234170"><img src="assets/img/s1_icon_ios.png" class="img-fluid" alt="A%虛擬助理iOS download"></a>
+								</div>
+								<div class="px-1" data-aos="fade-up" data-aos-delay="700">
+									<a href="https://play.google.com/store/apps/details?id=com.sympasoft.apa"><img src="assets/img/s1_icon_android.png" class="img-fluid" alt="A%虛擬助理Android download"></a>
+								</div>
 							</div>
 						</div>
 					</div>
-					<div class="s1_right d-flex justify-content-end px-0">
+					<div class="s1_right d-flex justify-content-between justify-content-sm-end align-items-center px-0 flex-nowrap">
+						<div class="d-block d-sm-none flex-fill s1_btn_m">
+							<div data-aos="fade-up" data-aos-delay="700">
+								<a href="https://apps.apple.com/tw/app/a-虛擬助理/id1673234170"><img src="assets/img/s1_icon_ios.png" class="img-fluid" alt="A%虛擬助理iOS download"></a>
+							</div>
+							<div data-aos="fade-up" data-aos-delay="800">
+								<a href="https://play.google.com/store/apps/details?id=com.sympasoft.apa"><img src="assets/img/s1_icon_android.png" class="img-fluid" alt="A%虛擬助理Android download"></a>
+							</div>
+						</div>
 						<div class="img">
-							<img src="assets/img/s1_phone.png" class="img-fluid" alt="" data-aos="fade-left" data-aos-delay="1000">
+							<img src="assets/img/s1_phone.png" class="img-fluid" alt="" data-aos="fade-up" data-aos-delay="1000" data-aos-anchor-placement="top-bottom">
 						</div>
 					</div>
 				</div>
@@ -90,30 +103,35 @@
 			<div class="container">
 				<div class="row d-flex justify-content-center">
 					<div class="col-lg-11">
-						<div class="d-flex justify-content-between align-items-center flex-wrap flex-column-reverse flex-sm-row">
+						<div class="d-flex justify-content-between align-items-center flex-wrap flex-column flex-sm-row">
 							<div class="s2_left text-center text-sm-end">
-								<h1 data-aos="zoom-in" data-aos-delay="100">A%虛擬行銷助理，幫你AUTO%</h1>
-								<p data-aos="fade-right" data-aos-delay="500">利用大數據分析與深度機器學習技術，提供如影隨形的虛擬行銷助理&emsp;<br>
+								<h1 class="d-none d-sm-block" data-aos="fade-up" data-aos-delay="100">A%虛擬行銷助理，幫你AUTO%</h1>
+								<h1 class="d-block d-sm-none" data-aos="fade-up" data-aos-delay="100">A%虛擬行銷助理幫你AUTO%</h1>
+								<p class="d-none d-sm-block" data-aos="fade-up" data-aos-delay="500">利用大數據分析與深度機器學習技術，提供如影隨形的虛擬行銷助理&emsp;<br>
 									為你的品牌找出最有效的行銷方案，只需一鍵送出就可開始轉換訂單。</p>
 							</div>
-							<div class="s2_right px-0 mx-auto" data-aos="fade-left">
+							<div class="s2_right px-0 mx-auto" data-aos="fade-up">
 								<img src="assets/img/s2_icon_logo.png" class="img-fluid" alt="A%虛擬行銷助理">
 							</div>
+							<div class="d-block d-sm-none text-center m_text">
+								<p data-aos="fade-up" data-aos-delay="500">利用大數據分析與深度機器學習技術，提供如影隨形的虛擬行銷助理&emsp;<br>
+									為你的品牌找出最有效的行銷方案，<br>只需一鍵送出就可開始轉換訂單。</p>
+							</div>
 						</div>
-						<div class="s2_bottom d-flex justify-content-between">
-							<div data-aos="fade-left" data-aos-delay="700">
+						<div class="s2_bottom d-flex justify-content-center justify-content-sm-between flex-wrap flex-sm-nowrap">
+							<div data-aos="fade-up" data-aos-delay="700">
 								<img src="assets/img/s2_icon_01.jpg" class="img-fluid" alt="Google AI Platform">
 							</div>
-							<div data-aos="fade-left" data-aos-delay="800">
+							<div data-aos="fade-up" data-aos-delay="800">
 								<img src="assets/img/s2_icon_02.jpg" class="img-fluid" alt="Kubernetes Engine">
 							</div>
-							<div data-aos="fade-left" data-aos-delay="900">
+							<div data-aos="fade-up" data-aos-delay="900">
 								<img src="assets/img/s2_icon_03.jpg" class="img-fluid" alt="Google vertex.ai">
 							</div>
-							<div data-aos="fade-left" data-aos-delay="1000">
+							<div data-aos="fade-up" data-aos-delay="1000">
 								<img src="assets/img/s2_icon_04.jpg" class="img-fluid" alt="Google Cloud Run">
 							</div>
-							<div data-aos="fade-left" data-aos-delay="1100">
+							<div data-aos="fade-up" data-aos-delay="1100">
 								<img src="assets/img/s2_icon_05.jpg" class="img-fluid" alt="Google Comoute Engine">
 							</div>
 						</div>
@@ -124,20 +142,26 @@
 		<!-- End About Section -->
 		<!-- ======= Features Section ======= -->
 		<section id="features" class="features">
-			<div class="section_bg" data-aos="fade-up">
+			<div class="section_bg d-none d-sm-block" data-aos="fade-up">
 				<img src="assets/img/s3_bg_01.png" class="img-fluid">
 			</div>
-			<div class="section_bg" data-aos="fade-up" data-aos-delay="300">
+			<div class="section_bg d-none d-sm-block" data-aos="fade-up" data-aos-delay="300">
 				<img src="assets/img/s3_bg_02.png" class="img-fluid">
 			</div>
+			<div class="section_bg d-block d-sm-none s3_bg_m">
+				<img src="assets/img/ps3_bg.jpg" class="img-fluid">
+			</div>
+			<div class="section_bg d-block d-sm-none" data-aos="fade-up">
+				<img src="assets/img/ps3_bg_item.png" class="img-fluid">
+			</div>
 			<div class="container d-flex align-items-center justify-content-center justify-content-sm-start">
-				<div class="d-flex align-items-start align-items-sm-center justify-content-between">
-					<div class="s3_left" data-aos="fade-right" data-aos-delay="250">
+				<div class="d-flex align-items-start align-items-sm-center justify-content-between flex-wrap">
+					<div class="s3_left" data-aos="fade-up" data-aos-delay="250">
 						<img src="assets/img/s3_phone.png" class="img-fluid" alt="A% AI Marketing">
 					</div>
-					<div class="s3_right">
+					<div class="s3_right text-center text-sm-left">
 						<h2 data-aos="fade-up" data-aos-delay="350">一眼掌握，你的轉換品質</h2>
-						<h1 data-aos="zoom-in" data-aos-delay="850">成長駭客，是你？</h1>
+						<h1 data-aos="fade-up" data-aos-delay="850">成長駭客，是你？</h1>
 						<p data-aos="fade-up" data-aos-delay="1100">A%給你完整的數據追蹤，包含AI點評優化建議<br>
 						以及每檔活動的品質分數，歷史綜合評比<br>
 						讓你如同成長駭客，不斷地進化!</p>
@@ -148,51 +172,55 @@
 		<!-- End Features Section -->
 		<!-- ======= Features2 Section ======= -->
 		<section id="features2" class="features2">
-			<div class="item_1" data-aos="fade-up">
+			<div class="item_1" data-aos="fade-up" data-aos-duration="1500">
 				<img src="assets/img/s4_bg_lu.png">
 			</div>
-			<div class="item_2" data-aos="fade-right" data-aos-delay="300">
+			<div class="item_2" data-aos="fade-up" data-aos-delay="300" data-aos-duration="1500">
 				<img src="assets/img/s4_bg_ld.png">
 			</div>
-			<div class="item_3" data-aos="fade-up" data-aos-delay="400">
+			<div class="item_3" data-aos="fade-up" data-aos-delay="600" data-aos-duration="1500">
 				<img src="assets/img/s4_bg_ru.png">
 			</div>
-			<div class="item_4" data-aos="fade-left" data-aos-delay="1100">
+			<div class="item_4" data-aos="fade-up" data-aos-delay="1100" data-aos-duration="1500">
+				<img src="assets/img/s4_bg_rd.png">
+			</div>
+			<div class="item_5 d-block d-sm-none" data-aos="fade-up" data-aos-delay="1300" data-aos-duration="1500">
 				<img src="assets/img/s4_bg_rd.png">
 			</div>
 			<div class="container">
 				<div class="row d-flex justify-content-end flex-column-reverse flex-sm-row">
 					<div class="s4_left col col-sm-6 px-0 d-flex align-items-center">
-						<div class="s4_left_text text-center text-sm-left flex-fill">
+						<div class="s4_left_text text-center text-sm-start flex-fill">
 							<h2 data-aos="fade-up" data-aos-delay="500">數據行銷就此開始，不再只有第六感</h2>
-							<h1 data-aos="zoom-in" data-aos-delay="750">比你的助理，更能幹</h1>
-							<p class="d-none d-sm-block" data-aos="fade-up" data-aos-delay="1000">Open 24/7 隨時向你報告市場行銷趨勢與優化建議，<br/>
-							最能幹的是：每日提出多個行銷企劃，等著老闆<br/>
-							一鍵發射，告別冷冰冰的品牌觀感。</p>
-							<p class="d-sm-none" data-aos="fade-up" data-aos-delay="1000">Open 24/7 隨時向你報告市場行銷趨勢與優化建議，最能幹的是：<br/>每日提出多個行銷企劃，等著老闆一鍵發射，告別冷冰冰的品牌觀感。</p>
+							<h1 data-aos="fade-up" data-aos-delay="750">比你的助理，更能幹</h1>
+							<div class="s4_left_text_p">
+								<p data-aos="fade-up" data-aos-delay="1000">Open 24/7 隨時向你報告市場行銷趨勢與優化建議，<br/>
+									最能幹的是：每日提出多個行銷企劃，等著老闆<br/>
+									一鍵發射，告別冷冰冰的品牌觀感。</p>
+							</div>
 						</div>
 					</div>
-					<div class="s4_right px-0 text-center" data-aos="fade-left" data-aos-delay="250">
+					<div class="s4_right px-0 text-center" data-aos="fade-up" data-aos-delay="250">
 						<img src="assets/img/s4_phone.png" class="img-fluid" alt="">
 					</div>
 				</div>
 				<div class="s4_bottom row d-flex justify-content-between">
-					<div class="col-12 col-sm-3 px-0" data-aos="fade-right" data-aos-delay="1300">
-						<div class="icon-box text-center">
+					<div class="col-12 col-sm-3 px-0" data-aos="fade-up">
+						<div class="icon-box text-center mx-auto">
 							<img src="assets/img/s4_icon_01.png" class="img-fluid" alt="">
-							<h3>可靠的AI與ML技術</h3>
+							<h3>AI電商運營時代來臨</h3>
 							<p>你所有的行銷數據，透過Google AI與機器學習演算法，找出最佳行銷方式推薦給你。</p>
 						</div>
 					</div>
-					<div class="col-12 col-sm-3 px-0" data-aos="fade-up" data-aos-delay="1300">
-						<div class="icon-box text-center">
+					<div class="col-12 col-sm-3 px-0" data-aos="fade-up" data-aos-delay="200">
+						<div class="icon-box text-center mx-auto">
 							<img src="assets/img/s4_icon_02.png" class="img-fluid" alt="">
-							<h3>最完整的行銷數據</h3>
+							<h3>真實可靠的行銷數據</h3>
 							<p>A%提供給你最完整的數據，讓你用更宏觀的角度洞察市場先機，並有效控制你的行銷預算。</p>
 						</div>
 					</div>
-					<div class="col-12 col-sm-3 px-0" data-aos="fade-left" data-aos-delay="1300">
-						<div class="icon-box text-center">
+					<div class="col-12 col-sm-3 px-0" data-aos="fade-up" data-aos-delay="400">
+						<div class="icon-box text-center mx-auto">
 							<img src="assets/img/s4_icon_03.png" class="img-fluid" alt="">
 							<h3>全面的虛擬助理</h3>
 							<p>A%是最全面的行銷助理，她收集並分析龐大的網路，給你最客觀與前瞻的行銷預測。</p>
@@ -204,17 +232,24 @@
 		<!-- End Features2 Section -->
 		<!-- ======= Howtouse Section ======= -->
 		<section id="howtouse" class="howtouse">
-			<img src="assets/img/s5_bg.jpg" class="img-fluid">
-			<div class="section_bg" data-aos="fade-up">
+			<img src="assets/img/s5_bg.jpg" class="img-fluid d-none d-sm-block">
+			<img src="assets/img/ps5_bg.jpg" class="img-fluid d-block d-sm-none">
+			<div class="section_bg d-none d-sm-block" data-aos="fade-up">
 				<img src="assets/img/s5_bg_item.png" class="img-fluid">
 			</div>
-			<div class="item_1" data-aos="fade-left" data-aos-delay="1500">
+			<div class="section_bg d-block d-sm-none" data-aos="fade-up">
+				<img src="assets/img/ps5_bg_item_top.png" class="img-fluid">
+			</div>
+			<div class="s5_bg_item_2 d-block d-sm-none" data-aos="fade-up">
+				<img src="assets/img/ps5_bg_item_b.png" class="img-fluid">
+			</div>
+			<div class="item_1" data-aos="fade-up" data-aos-delay="1500" data-aos-duration="1500">
 				<img src="assets/img/s5_bg_item01.png" alt="">
 			</div>
-			<div class="item_2" data-aos="fade-up" data-aos-delay="200">
+			<div class="item_2 d-none d-sm-block" data-aos="fade-up" data-aos-delay="200" data-aos-duration="1500">
 				<img src="assets/img/s5_bg_item02.png" alt="">
 			</div>
-			<div class="item_3" data-aos="fade-right" data-aos-delay="500">
+			<div class="item_3" data-aos="fade-up" data-aos-delay="500" data-aos-duration="1500">
 				<img src="assets/img/s5_bg_item03.png" alt="">
 			</div>
 			<div class="container d-none d-sm-block">
@@ -238,36 +273,34 @@
 				</div>
 				<div class="s5_bottom text-center d-flex flex-lg-column">
 					<div>
-						<img src="assets/img/s5_title.png" class="img-fluid" alt="" data-aos="zoom-in-up" data-aos-delay="1200">
+						<img src="assets/img/s5_title.png" class="img-fluid" alt="" data-aos="fade-up">
 					</div>
-					<div class="text mx-auto px-sm-3 px-md-3 px-lg-0" data-aos="fade-up" data-aos-delay="1400">
+					<div class="text mx-auto px-sm-3 px-md-3 px-lg-0" data-aos="fade-up" data-aos-delay="300">
 						<p>台灣天天是節日，行銷想破頭？只會跳樓大拍賣？就是沒有梗？這時候你只需要打開A%，滿滿的推薦活動供你選擇，只需要四個步驟選好受眾、優惠方式、內容與時間，1234立即發送！</p>
 					</div>
 				</div>
 			</div>
-			<div class="container d-block d-sm-none d-flex align-items-center">
-				<div class="row d-flex align-items-center justify-content-center">
-					<div class="col-6 step_pics_m">
-						<div>
-							<img src="assets/img/s5_phone_04.png" class="img-fluid" alt="">
-						</div>
-						<div>
-							<img src="assets/img/s5_phone_03.png" class="img-fluid" alt="">
-						</div>
-						<div>
-							<img src="assets/img/s5_phone_02.png" class="img-fluid" alt="">
-						</div>
-						<div>
-							<img src="assets/img/s5_phone_01.png" class="img-fluid" alt="">
-						</div>
+			<div class="container d-block d-sm-none">
+				<div class="d-flex flex-row-reverse justify-content-between flex-nowrap step_pics_m mx-auto">
+					<div>
+						<img src="assets/img/s5_phone_02.png" class="img-fluid" alt="" data-aos="fade-up" data-aos-delay="100">
 					</div>
-					<div class="col-6">
-						<div>
-							<img src="assets/img/s5_title.png" class="img-fluid" alt="">
-						</div>
-						<div class="text">
-							<p>台灣天天是節日，行銷想破頭？只會跳樓大拍賣？就是沒有梗？這時候你只需要打開A%，滿滿的推薦活動供你選擇，只需要四個步驟選好受眾、優惠方式、內容與時間，1234立即發送！</p>
-						</div>
+					<div class="img_right">
+						<img src="assets/img/s5_phone_01.png" class="img-fluid" alt="" data-aos="fade-up">
+					</div>
+				</div>
+				<div class="s5_title mx-auto">
+					<img src="assets/img/s5_title.png" class="img-fluid" alt="" data-aos="fade-up">
+				</div>
+				<div class="text text-center" data-aos="fade-up">
+					<p>台灣天天是節日，行銷想破頭？只會跳樓大拍賣？就是沒有梗？這時候你只需要打開A%，滿滿的推薦活動供你選擇，只需要四個步驟選好受眾、優惠方式、內容與時間，1234立即發送！</p>
+				</div>
+				<div class="d-flex flex-row-reverse justify-content-between flex-nowrap step_pics_m mx-auto">
+					<div style="z-index: 1;">
+						<img src="assets/img/s5_phone_04.png" class="img-fluid" alt="" data-aos="fade-up" data-aos-delay="100">
+					</div>
+					<div class="img_right">
+						<img src="assets/img/s5_phone_03.png" class="img-fluid" alt="" data-aos="fade-up">
 					</div>
 				</div>
 			</div>
@@ -275,9 +308,9 @@
 		<!-- End Howtouse Section -->
 		<!-- ======= Testimonials Section ======= -->
 		<section id="testimonials" class="testimonials text-center">
-			<img src="assets/img/s6_icon01.png" alt="" class="s6_icon">
+			<img src="assets/img/s6_icon01.png" alt="" class="s6_icon" data-aos="fade-up">
 			<div class="container">
-				<div class="testimonials-slider swiper">
+				<div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="300">
 					<div class="swiper-wrapper">
 
 						<div class="swiper-slide d-flex justify-content-center">
@@ -292,7 +325,7 @@
 									<i class="bi bi-star-fill"></i>
 									<i class="bi bi-star-fill"></i>
 								</div>
-								<h4><b><em>Josh</em></b>&ensp;---&emsp;Google CEO</h4>
+								<h4 class="d-none d-sm-block"><b><em>Josh</em></b>&ensp;---&emsp;Google CEO</h4>
 							</div>
 						</div>
 
@@ -308,19 +341,19 @@
 									<i class="bi bi-star-fill"></i>
 									<i class="bi bi-star-fill"></i>
 								</div>
-								<h4><b><em>Josh</em></b>&ensp;---&emsp;Google CEO</h4>
+								<h4 class="d-none d-sm-block"><b><em>Josh</em></b>&ensp;---&emsp;Google CEO</h4>
 							</div>
 						</div>
 
 					</div>
-					<div class="swiper-button-next">
+					<div class="swiper-button-next d-none d-sm-block">
 						<img src="assets/img/arrow.png" class="img-fluid" alt="">
 					</div>
-					<div class="swiper-button-prev">
+					<div class="swiper-button-prev d-none d-sm-block">
 						<img src="assets/img/arrow.png" class="img-fluid" alt="">
 					</div>
 				</div>
-				<div class="row d-flex justify-content-center">
+				<div class="row d-flex justify-content-center" data-aos="fade-up" data-aos-delay="400">
 					<div class="col-12 col-sm-10">
 						<div class="clients-slider swiper">
 							<div class="swiper-wrapper align-items-center">
@@ -342,23 +375,31 @@
 		<!-- ======= Download Section ======= -->
 		<section id="download" class="download">
 			<div class="container text-center">
-				<img src="assets/img/download_logo.png" class="img-fluid" alt="A%虛擬助理 logo">
+				<img src="assets/img/download_logo.png" class="img-fluid download_logo" alt="A%虛擬助理 logo" data-aos="fade-up">
 				<div class="d-flex justify-content-center">
-					<div id="qrcode">
+					<div id="qrcode" data-aos="fade-up" data-aos-delay="300">
 						<img src="assets/img/app-download.png" class="img-fluid" alt="A%虛擬助理 download">
 					</div>
 				</div>
-				<h2>成功的商家<br/>手機裡一定有個好助理</h2>
+				<h2 data-aos="fade-up" data-aos-delay="600">成功的商家<br/>手機裡一定有個好助理</h2>
 				<div class="row d-flex justify-content-center">
 					<div class="col-12 col-lg-4 col-sm-6">
 						<div class="row">
-							<div class="col">
+							<div class="col" data-aos="fade-up" data-aos-delay="900">
 								<a href="https://apps.apple.com/tw/app/a-虛擬助理/id1673234170"><img src="assets/img/s1_icon_ios.png" class="img-fluid" alt="A%虛擬助理iOS download"></a>
 							</div>
-							<div class="col">
+							<div class="col" data-aos="fade-up" data-aos-delay="1000">
 								<a href="https://play.google.com/store/apps/details?id=com.sympasoft.apa"><img src="assets/img/s1_icon_android.png" class="img-fluid" alt="A%虛擬助理Android download"></a>
 							</div>
 						</div>
+					</div>
+				</div>
+				<div class="download_social mx-auto d-block d-sm-none">
+					<div class="social d-flex justify-content-between">
+						<a href="" data-aos="fade-up" data-aos-delay="1200"><span id="line"></span></a>
+						<a href="" data-aos="fade-up" data-aos-delay="1300"><span id="facebook"></span></a>
+						<a href="" data-aos="fade-up" data-aos-delay="1400"><span id="twitter"></span></a>
+						<a href="" data-aos="fade-up" data-aos-delay="1500"><span id="instagram"></span></a>
 					</div>
 				</div>
 			</div>
@@ -368,11 +409,15 @@
 	<footer id="footer">
 		<div class="container">
 			<div class="d-flex justify-content-between align-items-center flex-column flex-sm-row">
-				<div class="footer_logo text-center text-sm-end">
-					<img src="assets/img/footer_logo.png" class="img-fluid" alt="">
-					<p>Sympasoft Co., Ltd&ensp;©2023</p>
+				<div class="footer_logo d-flex flex-row flex-sm-column align-items-center">
+					<div class="img">
+						<img src="assets/img/footer_logo.png" class="img-fluid" alt="">
+					</div>
+					<div class="copyright text-end">
+						<p>Sympasoft Co., Ltd&ensp;©2023</p>
+					</div>
 				</div>
-				<div class="footer_right">
+				<div class="footer_right d-none d-sm-block">
 					<p class="d-none d-sm-block">聯絡我們</p>
 					<div class="social d-flex justify-content-between">
 						<a href=""><span id="line"></span></a>

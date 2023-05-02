@@ -188,7 +188,7 @@
 		slidesPerView: 'auto',
 		breakpoints: {
 			320: {
-				slidesPerView: 2,
+				slidesPerView: 3,
 				spaceBetween: 40
 			},
 			480: {
@@ -215,10 +215,11 @@
 	 */
 	window.addEventListener('load', () => {
 		AOS.init({
-			//duration: 1000,
+			duration: 500,
 			easing: "ease-in-out",
 			once: true,
-			mirror: false
+			mirror: false,
+			anchorPlacement: "center-bottom"
 		});
 	});
 

@@ -4,6 +4,9 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+html {
+	scroll-behavior: auto !important;
+}
 body {
 	font-family: 'Roboto', 'Noto Sans TC', "Open Sans", sans-serif;
 	font-size: 16px;
@@ -765,6 +768,7 @@ section#features {
 	}
 
 	#features:before {
+		top: 0;
 		max-height: 0;
 	}
 

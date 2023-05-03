@@ -133,7 +133,7 @@
 				navbarToggle.classList.toggle('bi-list')
 				navbarToggle.classList.toggle('bi-x')
 			}
-			scrollto(this.hash)
+			//scrollto(this.hash)
 		}
 	}, true)
 
@@ -222,5 +222,55 @@
 			anchorPlacement: "center-bottom"
 		});
 	});
+
+	// Smooth scroll easeOut
+	const smoothScroll = function(target, duration) {
+		let editValue = 0;
+		if(target.getAttribute('id')=='features') {
+			let features = select("#features");
+			const topValue = window.getComputedStyle(features, "::before").top.replace('px','');
+			if(topValue){
+				editValue = parseInt(topValue);
+			}
+		}
+		if(target.getAttribute('id')=='howtouse') {
+			let howtouse = select("#howtouse .section_bg");
+			const topValue = window.getComputedStyle(howtouse).marginTop.replace('px','');
+			if(topValue){
+				editValue = parseInt(topValue);
+			}
+		}
+		let header = select('#header');
+		let offset = header.offsetHeight;
+		const targetPosition = target.offsetTop - offset + editValue;
+		const startPosition = window.pageYOffset;
+		const distance = targetPosition - startPosition;
+		let startTime = null;
+
+		const animateScroll = function(currentTime) {
+			if (startTime === null) startTime = currentTime;
+			const timeElapsed = currentTime - startTime;
+			const run = easeOut(timeElapsed, startPosition, distance, duration);
+			window.scrollTo(0, run);
+			if (timeElapsed < duration) requestAnimationFrame(animateScroll);
+		};
+
+		const easeOut = function(t, b, c, d) {
+			t /= d;
+			return -c * t*(t-2) + b;
+		};
+
+		requestAnimationFrame(animateScroll);
+	};
+
+	// Scroll to section when anchor link is clicked
+	const links = select('a[href^="#"]', 'all');
+	for (let i = 0; i < links.length; i++) {
+		links[i].addEventListener('click', function(e) {
+			e.preventDefault();
+			const target = document.querySelector(this.getAttribute('href'));
+    	smoothScroll(target, 1000);
+		});
+	}
 
 })()

@@ -446,7 +446,7 @@ section#home {
 }
 @media (max-width: 575px) {
 	#home:before {
-		max-height: 505px;
+		max-height: 495px;
 		height: calc( 100% - 80px );
 	}
 

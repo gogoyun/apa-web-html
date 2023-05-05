@@ -163,6 +163,7 @@
 	 */
 	new Swiper('.testimonials-slider', {
 		speed: 600,
+		effect: "fade",
 		loop: true,
 		autoplay: {
 			delay: 3000,
@@ -219,7 +220,7 @@
 			easing: "ease-in-out",
 			once: true,
 			mirror: false,
-			anchorPlacement: "center-bottom"
+			anchorPlacement: "bottom-bottom"
 		});
 	});
 
@@ -227,8 +228,8 @@
 	const smoothScroll = function(target, duration) {
 		let editValue = 0;
 		if(target.getAttribute('id')=='features') {
-			let features = select("#features");
-			const topValue = window.getComputedStyle(features, "::before").top.replace('px','');
+			let features = select(".features_gradient_bg");
+			const topValue = window.getComputedStyle(features).top.replace('px','');
 			if(topValue){
 				editValue = parseInt(topValue);
 			}

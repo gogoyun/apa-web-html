@@ -36,3 +36,6 @@ apa-web-html/
 - [AOS - Animate On Scroll](https://michalsnik.github.io/aos/)（CDN）
 - [Swiper.js](https://swiperjs.com/)（CDN）
 - Google Fonts（Noto Sans TC、Roboto）
+
+## 授權
+本專案版權所有 © SYMPASOFT CO., LTD.，僅供展示用途，未經授權請勿商業使用。
